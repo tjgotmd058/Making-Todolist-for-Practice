@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>To do list</h1>
+      <form id="toDoForm">
+        <input
+          type="text"
+          id="toDoInput"
+          placeholder="예정된 일을 기록하세요."
+        />
+        <button type="submit" id="toDoSubmit">Add</button>
+      </form>
+      <ul id="toDoList"></ul>
+    </div>
+    <template id="toDoTemplate">
+      <li class="toDoItems">
+        <input type="checkBox" class="itemCheckBox" />
+        <span class="itemTitle">Text</span>
+        <button class="deleteBtn">Delete</button>
+      </li>
+    </template>
+    <script src="index.js"></script>
+  </body>
+</html>
