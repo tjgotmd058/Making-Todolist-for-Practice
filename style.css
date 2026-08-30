@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background : linear-gradient(265deg, #153677, #4e085f);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#container {
+    width: 450px;
+    height: 600px;
+    background: #f0f2f5;
+    border-radius: 10%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#toDoForm {
+    text-align: center;
+}
